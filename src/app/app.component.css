@@ -1,0 +1,107 @@
+body {
+  font-family: 'Alfa Slab One', cursive;
+  font-size:5rem;
+  background:#2c333a;
+}
+
+div {
+  width:80%;
+  margin:4rem auto;
+  text-align:center;
+  perspective: 800px;
+ }
+
+span {
+   display:inline-block;
+   margin-left: -20px;
+   color:#77c6bc;
+   transform-origin: 50% 70%;
+}
+
+
+span:nth-child(2n) {
+  color:#95b8cb;
+}
+
+span:nth-child(1) {
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both;
+}
+
+span:nth-child(2) {
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both;
+}
+
+span:nth-child(3) {
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both;
+}
+
+span:nth-child(4) {
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+}
+
+span:nth-child(5) {
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)  1s both;
+ }
+
+span:nth-child(6) {
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.2s both;
+}
+
+span:nth-child(7) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.4s both;
+  margin-right:30px;
+
+}
+span:nth-child(8) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+span:nth-child(9) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.8s both;
+}
+span:nth-child(10) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.0s both;
+}
+span:nth-child(11) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.2s both;
+}
+span:nth-child(12) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.4s both;
+}
+span:nth-child(13) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.6s both;
+}
+span:nth-child(14) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.8s both;
+}
+span:nth-child(15) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 3.0s both;
+}
+span:nth-child(16) { 
+  animation: fliptext 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 3.2s both;
+}
+section {
+  color: bisque;
+  animation:  blink 1s ease-in-out 3.4s  infinite both;
+            
+}
+@keyframes fliptext{
+  from {transform: rotateX(90deg);}
+  to {transform: rotateX(0deg);}
+}
+@keyframes blink{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
